@@ -16,7 +16,7 @@ This application will help me manage my personal finances. I will be able to ent
 
 ## Completed Modules
 
-Module 01 - Setup: Created my GitHub repository, set up a folder for each module, and installed my C++ development environment.
+Module 01 - Setup: Created my GitHub repository, set up a folder for each module, installed my C++ development environment, and uploaded my first working program (hello_world.cpp).
 
 ## How to Run My Application
 
