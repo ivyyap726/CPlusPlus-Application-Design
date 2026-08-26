@@ -4,22 +4,20 @@
 
 ## About This Project
 
-This repository holds my projects and assignments for CIS-25-PROGRAMMNG USING C++-L1-41736. The class follows an Application Design Lab format, where I build one growing C++ application module by module across the semester.
+This is my project repo for CIS-25-PROGRAMMNG USING C++-L1-41736. In this class, I will build one app step by step, module by module.
 
 ## Application I Plan to Build
 
-A personal budget and expense tracker.
+A simple money tracker app.
 
 ## Description
 
-This console-based C++ application will let me record my income and expenses, organize each transaction into categories (such as food, transportation, bills, and entertainment), and search or sort transactions by date or amount.
-
-Transaction data will be saved to a file so my records are kept between runs of the program. As the course progresses, I plan to add features such as monthly spending summaries and category reports, and later an AI-assisted feature that automatically suggests a category for a new transaction or offers simple saving tips based on my spending patterns.
+This app will help me track my money. I can add money I get and money I spend. I can put each one in a group, like food, transport, bills, or fun. I can also look up my spending by date or by how much it costs. The app will save my data in a file, so I don't lose it when I close the program. Later, I want to add a report that shows how much I spent each month. I also want to try adding an AI part that can guess the right group for a new expense, or give me tips on how to save money.
 
 ## Completed Modules
 
-Module 01 - Setup: GitHub repository created, module folders organized, C++ development environment being set up.
+Module 01 - Setup: I made my GitHub repo, made a folder for each module, and I am setting up my C++ tools.
 
 ## How to Run My Application
 
-No runnable application yet. Instructions for building and running it will be added here once the first working version exists.
+I don't have a working app yet. I will add the steps here once I have a first version that runs.
