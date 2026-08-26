@@ -4,20 +4,20 @@
 
 ## About This Project
 
-This is my project repo for CIS-25-PROGRAMMNG USING C++-L1-41736. In this class, I will build one app step by step, module by module.
+This repository contains my work for CIS-25-PROGRAMMNG USING C++-L1-41736. In this class, I am building a single application module by module, adding new features as I learn new C++ concepts.
 
 ## Application I Plan to Build
 
-A simple money tracker app.
+A personal budget tracker application.
 
 ## Description
 
-This app will help me track my money. I can add money I get and money I spend. I can put each one in a group, like food, transport, bills, or fun. I can also look up my spending by date or by how much it costs. The app will save my data in a file, so I don't lose it when I close the program. Later, I want to add a report that shows how much I spent each month. I also want to try adding an AI part that can guess the right group for a new expense, or give me tips on how to save money.
+This application will help me manage my personal finances. I will be able to enter income and expenses and organize each transaction into categories, such as food, transportation, bills, and entertainment. The program will also let me search or sort transactions by date or amount. All transaction data will be saved to a file so that my records are not lost when the program closes. Later in the course, I plan to add a monthly summary report and, eventually, a simple AI feature that suggests a category for a new transaction or offers basic saving tips based on my spending habits.
 
 ## Completed Modules
 
-Module 01 - Setup: I made my GitHub repo, made a folder for each module, and I am setting up my C++ tools.
+Module 01 - Setup: Created my GitHub repository, set up a folder for each module, and installed my C++ development environment.
 
 ## How to Run My Application
 
-I don't have a working app yet. I will add the steps here once I have a first version that runs.
+There is no working version of the application yet. Instructions for building and running it will be added once the first version is complete.
