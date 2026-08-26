@@ -4,11 +4,11 @@
 
 ## About This Project
 
-This repository holds my projects and assignments for CIS-25-PROGRAMMNG USING C++-L1-41736. The class follows an Application Design Lab format, where I build one growing C++ application module by module across the semester.
+This repository holds my projects and assignments for CIS-25-PROGRAMMNG USING C++-L1-41736. 
 
 ## Application I Plan to Build
 
-Not decided yet - this section will be updated once I choose a project idea. Work is starting with the Module 1 starter console program.
+Not decided yet - this section will be updated once I choose a project idea. 
 
 ## Description
 
