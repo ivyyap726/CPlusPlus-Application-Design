@@ -17,7 +17,9 @@ This application will help me manage my personal finances. I will be able to ent
 ## Completed Modules
 
 Module 01 - Setup: Created my GitHub repository, set up a folder for each module, installed my C++ development environment, and uploaded my first working program (hello_world.cpp).
+
 Module 02 - Menus, Switch Case & Application Flow: Built a looping main menu with five options using switch/case and input validation.
+
 Module 03 - Variables, Cin, Cout: Added a welcome screen built from variables to practice using different C++ data types (string, int).
 
 ## How to Run My Application
