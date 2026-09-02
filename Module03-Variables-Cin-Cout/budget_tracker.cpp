@@ -4,26 +4,26 @@
 using namespace std;
 
 void addRecord() {
-      cout << "Add Record selected." << endl;
+          cout << "Add Record selected." << endl;
 }
 
 void viewRecord() {
-      cout << "View Record selected." << endl;
+          cout << "View Record selected." << endl;
 }
 
 void searchRecord() {
-      cout << "Search Record selected." << endl;
+          cout << "Search Record selected." << endl;
 }
 
 void viewSummary() {
-      cout << "View Summary selected." << endl;
+          cout << "View Summary selected." << endl;
 }
 
 int main() {
-      // Variables for the welcome screen
+          // Variables for the welcome screen
     string userName = "Jordan Lee";
     int userAge = 20;
-    string userCollege = "Lanay College";
+    string userCollege = "Laney College";
     string appName = "Personal Budget Tracker";
     string appVersion = "1.0";
 
