@@ -1,20 +1,48 @@
 #include <iostream>
 #include <limits>
 #include <string>
+#include <fstream>
+#include <sstream>
 using namespace std;
 
 void addRecord() {
-      cout << "Add Record selected." << endl;
+          cout << "Add Record selected." << endl;
 }
 
 void viewRecord() {
-      string transactionDate[5] = {"2020-01-02", "2020-01-02", "2020-01-04", "2020-01-05", "2020-01-13"};
-    string category[5] = {"Food & Drink", "Utilities", "Rent", "Investment", "Food & Drink"};
-    double amount[5] = {1485.69, 1475.58, 1185.08, 2291.00, 1126.88};
+          string transactionDate[5];
+    string category[5];
+    double amount[5];
+    int count = 0;
+
+    ifstream inFile("personal_finance_data.csv");
+    if (!inFile) {
+        cout << "Could not open personal_finance_data.csv" << endl;
+        return;
+    }
+
+    string line;
+    getline(inFile, line); // skip header row
+
+    while (getline(inFile, line) && count < 5) {
+        stringstream ss(line);
+        string dateStr, categoryStr, amountStr;
+
+        getline(ss, dateStr, ',');
+        getline(ss, categoryStr, ',');
+        getline(ss, amountStr, ',');
+
+        transactionDate[count] = dateStr;
+        category[count] = categoryStr;
+        amount[count] = stod(amountStr);
+        count++;
+    }
+
+    inFile.close();
 
     double *amountPtr = &amount[0];
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < count; i++) {
         cout << transactionDate[i] << " | " << category[i] << " | $" << amount[i] << endl;
     }
 
@@ -22,15 +50,15 @@ void viewRecord() {
 }
 
 void searchRecord() {
-      cout << "Search Record selected." << endl;
+          cout << "Search Record selected." << endl;
 }
 
 void viewSummary() {
-      cout << "View Summary selected." << endl;
+          cout << "View Summary selected." << endl;
 }
 
 int main() {
-      // Variables for the welcome screen
+          // Variables for the welcome screen
     string userName = "Jordan Lee";
     int userAge = 20;
     string userCollege = "Laney College";
