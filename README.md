@@ -20,7 +20,7 @@ Module 01 - Setup: Created my GitHub repository, set up a folder for each module
 Module 02 - Menus, Switch Case & Application Flow: Built a looping main menu with five options using switch/case and input validation.
 Module 03 - Variables, Cin, Cout: Added a welcome screen built from variables to practice using different C++ data types (string, int).
 Module 04 - Datasets, Arrays & Pointers: Loaded real records from a Kaggle dataset into parallel arrays and used a pointer to access a value.
-
+Module 05 - Records, Headers & Functions: Loaded records from a file into memory, added the ability to add a new record, calculated a summary total, and moved a function into its own header file.
 ## How to Run My Application
 
 There is no working version of the application yet. Instructions for building and running it will be added once the first version is complete.
