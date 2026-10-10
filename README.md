@@ -22,6 +22,7 @@ Module 03 - Variables, Cin, Cout: Added a welcome screen built from variables to
 Module 04 - Datasets, Arrays & Pointers: Loaded real records from a Kaggle dataset into parallel arrays and used a pointer to access a value.
 Module 05 - Records, Headers & Functions: Loaded records from a file into memory, added the ability to add a new record, calculated a summary total, and moved a function into its own header file.
 Module 06 - Creating Classes & Objects: Created a Transaction class with private data members, a constructor, member functions, a getter, and a setter, and used it to build and display objects from the loaded records.
+Module 07 - Security, Roles & Binary Search: Added Admin and RegularUser roles built on a User base class, gave every transaction a unique auto-incremented ID, and used binary search to find a record by ID. Added a deleteRecord() function restricted to Admins.
 ## How to Run My Application
 
 There is no working version of the application yet. Instructions for building and running it will be added once the first version is complete.
