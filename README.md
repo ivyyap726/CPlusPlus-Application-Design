@@ -23,6 +23,7 @@ Module 04 - Datasets, Arrays & Pointers: Loaded real records from a Kaggle datas
 Module 05 - Records, Headers & Functions: Loaded records from a file into memory, added the ability to add a new record, calculated a summary total, and moved a function into its own header file.
 Module 06 - Creating Classes & Objects: Created a Transaction class with private data members, a constructor, member functions, a getter, and a setter, and used it to build and display objects from the loaded records.
 Module 07 - Security, Roles & Binary Search: Added Admin and RegularUser roles built on a User base class, gave every transaction a unique auto-incremented ID, and used binary search to find a record by ID. Added a deleteRecord() function restricted to Admins.
+Module 08 - Input Validation & Protecting Data: Added validation to addRecord() so it rejects bad input, including an incorrectly formatted date, an empty category, or a negative amount, each with a clear error message and a chance to try again.
 ## How to Run My Application
 
 There is no working version of the application yet. Instructions for building and running it will be added once the first version is complete.
